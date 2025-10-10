@@ -1,6 +1,7 @@
 import user from "../models/user.model.js"
 import bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken'
+import Resume from "../models/resume.model.js"
 
 
 
@@ -84,3 +85,36 @@ export const loginUser = async(req,res)=>{
     }
 }
 
+//controoler for getting user by id
+
+export const getUserById = async (req,res)=>{
+    try {
+        const userId = req.userId
+        const user = await user.findById(userId)
+        if(!user){
+            return res.status(404).json({message:"user not found"})
+        }
+        //agar user mil gya toh user ko return krdo
+        user.password=undefined
+        return res.status(200).json({user})
+
+
+    } catch (error) {
+        return res.status(400).json({message:"user not registered"},error.message)
+    }
+}
+
+//user ke resume milne ke liye bhi toh controller likhenge
+
+export const getUserResumes = async (req,res)=>{
+    try {
+        //resumes ko userId se hi fetch kr lete hai
+        const userId = req.userId
+        const resumes = await Resume.findById({
+            userId:userId
+        })
+        return res.status(200).json({resumes})
+    } catch (error) {
+        return res.status(400).json({message:"error in fetching resumes"},error.message)
+    }
+}
