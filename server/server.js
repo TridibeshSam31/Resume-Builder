@@ -3,6 +3,8 @@ import dotenv from "dotenv"
 import cors from "cors"
 import connectDB from "./config/db.js";
 import userRouter from "./routes/userRoutes.js";
+import ResumeRouter from "./routes/resumeRoute.js";
+import aiRouter from "./routes/aiRoute.js";
 
 dotenv.config(
     {
@@ -31,4 +33,5 @@ app.use(express.json());
 
  
 app.use('/api/users', userRouter) 
-
+app.use('/api/resumes',ResumeRouter)
+app.use('/api/ai',aiRouter)

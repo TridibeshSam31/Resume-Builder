@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 843.393959477306,
-			"y": 1250.462443468092,
-			"lastActivityTimestamp": 1760121166600,
+			"x": 2968.1725127937752,
+			"y": 942.6609243712026,
+			"lastActivityTimestamp": 1760168648265,
 			"meta": {}
 		},
 		{
@@ -88,20 +88,94 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -628.9939503220326,
-			"y": -1004.0624343128186,
-			"z": 1,
+			"x": 539.8550414233966,
+			"y": -10.681836383767802,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:PAndUmEsmm5RTVqbrtKBS",
+			"type": "geo",
+			"props": {
+				"w": 1531.7730518493229,
+				"h": 1332.7401102201768,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a7MohNNV",
+			"typeName": "shape"
+		},
+		{
+			"x": 74.6024413437824,
+			"y": 651.7531515968778,
+			"z": 0.3286473745421765,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
 		},
 		{
-			"editingShapeId": "shape:MJOIvkAI_2Vy4brD4nocK",
+			"x": 2140.198889515956,
+			"y": -157.02961385330823,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:j_BPds9NIqTWbFCsKLVAs",
+			"type": "geo",
+			"props": {
+				"w": 1314.9034652348032,
+				"h": 852.7195147520014,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a6xnxbfV",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": "shape:7uBdOl-jIWB-uwqrf1RuW",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:MJOIvkAI_2Vy4brD4nocK"
+				"shape:7uBdOl-jIWB-uwqrf1RuW"
 			],
-			"hoveredShapeId": "shape:MJOIvkAI_2Vy4brD4nocK",
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -109,6 +183,219 @@
 			"id": "instance_page_state:page:page",
 			"pageId": "page:page",
 			"typeName": "instance_page_state"
+		},
+		{
+			"x": 2581.1935325715604,
+			"y": 88.83459721265035,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:mdkS6vrrffxNMHUWGxq70",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 719.9500122070312,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "ai features add krne ke liye "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "openAi  ka use krenge + gemini ka use krenge"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "for suggestions "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "fir enhanche krne ke liye ai ke controller bhi likhna hoga"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "prompt ko pass krna hoga gemini model mai"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "aur model ko 2.5 flash mai set krna hhioga"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a5pMsjoV",
+			"typeName": "shape"
+		},
+		{
+			"x": 2388.490088399576,
+			"y": 91.49927567779184,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:0XZL2HmSOW6w_WnfTuJqD",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 169.91250610351562,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Ab Ai ki baari"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a49iSbhV",
+			"typeName": "shape"
+		},
+		{
+			"x": 2347.4464221497137,
+			"y": 881.8054252884515,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:7uBdOl-jIWB-uwqrf1RuW",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1438.3375244140625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Image handling wala part ho chuka hai imagekit se hum cloudinary se bhi kr skte the "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "koi dikkat nhi sbme procedure almost same hai buffer mai convert kr dete hai wahan se image uipload ho jata hai "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a8GMOsTV",
+			"typeName": "shape"
 		},
 		{
 			"meta": {},
@@ -140,7 +427,7 @@
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 1,
+				"scale": 1.0264473912826033,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -749,8 +1036,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 528,
-				"h": 518.4000244140625
+				"w": 1188,
+				"h": 798.4000244140625
 			},
 			"insets": [
 				false,
