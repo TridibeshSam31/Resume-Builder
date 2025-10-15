@@ -199,3 +199,45 @@ export const uploadResume = async (req,res)=>{
         })
     }
 }
+
+
+
+//ats score ko analysize krne ke liye controller likhna hai soooo
+
+//POST : /api/ats/analyze/:resumeId
+
+export const analyzeAtsScore = async(req,res)=>{
+    try {
+        const {resumeId} = req.params
+        const{userId} = req.userId
+
+        const resume = await Resume.findById({
+            _id:resumeId,
+            userId:userId
+        });
+        if (!resume) {
+            return res.status(404).json({
+                message:"resume not found"
+            })
+        }
+
+        //next yeh sochna hai ki agar humko score generate krna hai toh kya kya chaiye hoga
+        //since hum ai ki help le rhe hai so humme prompt bhi dena hoga system ko prompt dena hoga aur ek user ka prompt hoga
+        //jaise humne upar kiya tha 
+        //resume ke analysis ke liye humko resume ka text bhi dena hoga
+        
+
+        const systemPrompt = ''
+        const userPrompt = ``
+        //ok ab iske baad 
+        //fir openAi api ko call krenge
+        //aur response ko pass krenge
+
+    } catch (error) {
+      console.error("ATS Analysis Error:",error)
+      return res.status(500).json({
+        message:"Error analyzing resume",
+        error:error.message
+      })
+    }
+}

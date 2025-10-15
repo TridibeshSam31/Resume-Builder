@@ -115,7 +115,70 @@ const ResumeSchema = new mongoose.Schema({
                     type:String
                 }
             }
-        ]
+        ],
+        //for ats score
+
+        ats_analysis:{
+        last_analyzed:{
+            type:Date
+        },
+        overall_score:{
+            type:Number,
+            min:0,
+            max:100
+        },
+        keyword_score:{
+            type:Number,
+            min:0,
+            max:100
+        },
+        formatting_score:{
+            type:Number,
+            min:0,
+            max:100
+        },
+        content_score:{
+            type:Number,
+            min:0,
+            max:100
+        },
+        suggestions:[{
+            type:{
+                type:String,
+                enum:['critical','warning','info']
+            },
+            category:{
+                type:String,
+                enum:['keywords','formatting','content','skills']
+            },
+            message:{
+                type:String
+            }
+        }],
+        missing_keywords:[{
+            type:String
+        }],
+        job_match_score:{
+            type:Number,
+            min:0,
+            max:100
+        }
+    },
+    
+    // NEW: Export History
+    export_history:[{
+        format:{
+            type:String,
+            enum:['pdf','docx','html','json','latex']
+        },
+        exported_at:{
+            type:Date,
+            default:Date.now
+        },
+        file_url:{
+            type:String
+        }
+    }]
 
 
     }
