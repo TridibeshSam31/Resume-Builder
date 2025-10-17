@@ -35,3 +35,5 @@ app.use(express.json());
 app.use('/api/users', userRouter) 
 app.use('/api/resumes',ResumeRouter)
 app.use('/api/ai',aiRouter)
+app.use('/api/ats', aiRouter);        
+app.use('/api/export', exportRouter); 

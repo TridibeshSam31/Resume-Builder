@@ -1,7 +1,7 @@
 import express from "express"
 import userAuth from "../middleware/auth.middleware.js"
 import { enhanceProffesionalSummary,enhanceJobDescription,updateResume,getATSscore,analyzeAtsScore } from "../controllers/ai.controller.js"
-import { updateResume } from "../controllers/resume.controller"
+
 
 const aiRouter = express.Router()
 
