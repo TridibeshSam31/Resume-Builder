@@ -9,7 +9,7 @@ aiRouter.post('/enhance-pro-sum',userAuth,enhanceProffesionalSummary)
 aiRouter.post('/enhance-job-desc',userAuth,enhanceJobDescription)
 aiRouter.post('/upload-resume',userAuth,updateResume)
 aiRouter.post('/analyze',userAuth,analyzeAtsScore)
-aiRouter.get('/ats',userAuth,getATSscore)
+aiRouter.get('/ats-score',userAuth,getATSscore)
 
 
 export default aiRouter

@@ -4,6 +4,8 @@ import { Document, Packer, Paragraph, TextRun, HeadingLevel } from 'docx';
 import fs from 'fs';
 import path from 'path';
 
+
+
 // POST: /api/export/pdf/:resumeId
 export const exportToPDF = async (req, res) => {
     try {
