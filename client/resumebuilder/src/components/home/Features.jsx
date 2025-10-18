@@ -1,4 +1,7 @@
+import { Zap } from 'lucide-react';
+
 import React from 'react';
+import Title from './Title.jsx'
 
 
 const Features = () => {
@@ -6,7 +9,20 @@ const Features = () => {
 
     return (
         <>
-            <div className="flex flex-col md:flex-row items-center justify-center">
+          <div id='features'  className='flex flex-col itgems-center my-10 scroll-mt-12'>
+            <div className="flex items-center gap-2 text-sm text-green-800 bg-green-400/10 border  rounded-full px-6 py-1.5">
+
+            <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M1.613 8.2a.62.62 0 0 1-.553-.341.59.59 0 0 1 .076-.637l6.048-6.118a.31.31 0 0 1 .375-.069c.061.033.11.084.137.147a.3.3 0 0 1 .014.197L6.537 4.991a.59.59 0 0 0 .07.552.61.61 0 0 0 .504.257h4.276a.62.62 0 0 1 .553.341.59.59 0 0 1-.076.637l-6.048 6.119a.31.31 0 0 1-.375.067.295.295 0 0 1-.15-.344l1.172-3.61a.59.59 0 0 0-.07-.553.61.61 0 0 0-.504-.257z"
+                    stroke="#1E4BAF" strokeMiterlimit="5.759" strokeLinecap="round" />
+            </svg>
+            <Zap width={14}/>
+            <span>Simple Process</span>
+        </div>
+         <Title title='Build Your Resume' description='Our Streamlined Process helps You create a proffesional Resume In Minutes With Intelligent Ai-Powered Tools And Features'/>
+
+            <div className="flex flex-col md:flex-row items-center justify-center xl:-mt-10">
                 <img className="max-w-2xl w-full xl:-ml-32" src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/features/group-image-1.png" alt="" />
                 <div className="px-4 md:px-0" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
                     <div className={"flex items-center justify-center gap-6 max-w-md group cursor-pointer"}>
@@ -37,6 +53,7 @@ const Features = () => {
                         </div>
                     </div>
                 </div>
+             </div>
             </div>
             <style>{`
                 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
