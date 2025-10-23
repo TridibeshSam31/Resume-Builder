@@ -55,9 +55,10 @@ const ResumeSchema = new mongoose.Schema({
             default:''
         },
         ConnectMeAt:{
-            enum:["email","phone",'linkedin','github','twitter','instagram'],
-            required:true,
-            default:'email'
+         type:String,
+         enum:["email","phone",'linkedin','github','twitter','instagram'],
+          required:true,
+          default:'email'
         },
 
         experience:[
