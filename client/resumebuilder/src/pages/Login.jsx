@@ -1,4 +1,3 @@
-import { Lock,Mail,User2Icon } from 'lucide-react'
 import React from 'react'
 
 const Login = () => {
@@ -29,7 +28,10 @@ const Login = () => {
                 <p className="text-gray-500 text-sm mt-2">Please {state} to continue</p>
                 {state !== "login" && (
                     <div className="flex items-center mt-6 w-full bg-white border border-gray-300/80 h-12 rounded-full overflow-hidden pl-6 gap-2">
-                       <Lock size={13} color="#6B7280"/>
+                       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-user-icon lucide-user">
+                         <path d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4Z" />
+                         <path d="M4 21a8 8 0 0 1 16 0" />
+                       </svg>
                         <input type="text" name="name" placeholder="Name" className="border-none outline-none ring-0" value={formData.name} onChange={handleChange} required />
                     </div>
                 )}
